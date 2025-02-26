@@ -2122,18 +2122,18 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  {
   "class": "Video",
   "scaleMode": "fit_inside",
-  "label": "DRM 301P drone tour",
-  "thumbnailUrl": "media/video_549B73D9_4338_5DDA_41A9_B83B1CC2CB75_t.jpg",
+  "label": "DRM 301P drone tour slower",
+  "thumbnailUrl": "media/video_5B320FCE_43C8_A639_41BB_61804A2C0FC9_t.jpg",
   "video": {
-   "height": 1080,
+   "height": 1680,
    "class": "VideoResource",
-   "mp4Url": "media/video_549B73D9_4338_5DDA_41A9_B83B1CC2CB75.mp4",
-   "width": 1920
+   "mp4Url": "media/video_5B320FCE_43C8_A639_41BB_61804A2C0FC9.mp4",
+   "width": 2986
   },
-  "width": 1920,
-  "id": "video_549B73D9_4338_5DDA_41A9_B83B1CC2CB75",
+  "width": 2986,
+  "id": "video_5B320FCE_43C8_A639_41BB_61804A2C0FC9",
   "loop": false,
-  "height": 1080
+  "height": 1680
  },
  {
   "buttonRestart": "this.IconButton_4EEC4AA5_5E2B_1FC1_41CD_C80D0BF61440",
@@ -2338,10 +2338,10 @@ TDV.PlayerAPI.defineScript({ "definitions": [
    {
     "class": "VideoPlayListItem",
     "begin": "this.fixTogglePlayPauseButton(this.MainViewerVideoPlayer); this.setEndToItemIndex(this.mainPlayList, 27, 0)",
-    "media": "this.video_549B73D9_4338_5DDA_41A9_B83B1CC2CB75",
+    "media": "this.video_5B320FCE_43C8_A639_41BB_61804A2C0FC9",
     "player": "this.MainViewerVideoPlayer",
     "end": "this.trigger('tourEnded')",
-    "start": "this.MainViewerVideoPlayer.set('displayPlaybackBar', true); this.changeBackgroundWhilePlay(this.mainPlayList, 27, '#000000'); this.pauseGlobalAudiosWhilePlayItem(this.mainPlayList, 27, this.video_549B73D9_4338_5DDA_41A9_B83B1CC2CB75)"
+    "start": "this.MainViewerVideoPlayer.set('displayPlaybackBar', true); this.changeBackgroundWhilePlay(this.mainPlayList, 27, '#000000'); this.pauseGlobalAudiosWhilePlayItem(this.mainPlayList, 27, this.video_5B320FCE_43C8_A639_41BB_61804A2C0FC9)"
    }
   ]
  },
@@ -2541,9 +2541,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
    {
     "class": "VideoPlayListItem",
     "player": "this.MainViewerVideoPlayer",
-    "media": "this.video_549B73D9_4338_5DDA_41A9_B83B1CC2CB75",
+    "media": "this.video_5B320FCE_43C8_A639_41BB_61804A2C0FC9",
     "begin": "this.fixTogglePlayPauseButton(this.MainViewerVideoPlayer); this.setEndToItemIndex(this.thumbnaillist5245_playlist, 27, 0)",
-    "start": "this.MainViewerVideoPlayer.set('displayPlaybackBar', true); this.changeBackgroundWhilePlay(this.thumbnaillist5245_playlist, 27, '#000000'); this.pauseGlobalAudiosWhilePlayItem(this.thumbnaillist5245_playlist, 27, this.video_549B73D9_4338_5DDA_41A9_B83B1CC2CB75)"
+    "start": "this.MainViewerVideoPlayer.set('displayPlaybackBar', true); this.changeBackgroundWhilePlay(this.thumbnaillist5245_playlist, 27, '#000000'); this.pauseGlobalAudiosWhilePlayItem(this.thumbnaillist5245_playlist, 27, this.video_5B320FCE_43C8_A639_41BB_61804A2C0FC9)"
    }
   ]
  },
@@ -2979,7 +2979,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PlayList",
-  "id": "playList_5087EA12_4338_6E29_41BA_3B358448D0F1",
+  "id": "playList_571E9D8B_43C8_AA3F_41B1_5FC97772B124",
   "items": [
    {
     "class": "MapPlayListItem",
@@ -2991,7 +2991,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PlayList",
-  "id": "playList_50841A12_4338_6E29_41B1_9AD0244287FC",
+  "id": "playList_571F6D8B_43C8_AA3F_41C0_1DA6BC86A334",
   "items": [
    {
     "class": "MapPlayListItem",
@@ -3656,7 +3656,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "progressBarBorderRadius": 4
  }
 ], 
- "start": "this.playAudioList([this.audio_2DBF3FA1_26FB_9136_41A1_CEAD8B6739ED]); this.syncPlaylists([this.thumbnaillist5245_playlist,this.mainPlayList]); this.mainPlayList.set('selectedIndex', 0); this.playList_50841A12_4338_6E29_41B1_9AD0244287FC.set('selectedIndex', 0)",
+ "start": "this.playAudioList([this.audio_2DBF3FA1_26FB_9136_41A1_CEAD8B6739ED]); this.syncPlaylists([this.thumbnaillist5245_playlist,this.mainPlayList]); this.mainPlayList.set('selectedIndex', 0); this.playList_571F6D8B_43C8_AA3F_41C0_1DA6BC86A334.set('selectedIndex', 0)",
  "class": "Player",
  "mouseWheelEnabled": true,
  "horizontalAlign": "left",
